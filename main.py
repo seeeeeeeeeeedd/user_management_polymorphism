@@ -24,7 +24,7 @@ def print_commands():
 
 
 def show_permissions(user_object: User) -> None:
-    print(f'Права пользователя: {user_object.get_permissions()}')
+    print(user_object.get_permissions())
 
 
 is_program_running = True
