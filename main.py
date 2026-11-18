@@ -43,7 +43,5 @@ while is_program_running:
         elif user_command_number == EXIT_COMMAND:
             print('Выход из программы')
             is_program_running = False
-        else:
-            print(UNKNOWN_COMMAND_MESSAGE)
     else:
         print(UNKNOWN_COMMAND_MESSAGE)
